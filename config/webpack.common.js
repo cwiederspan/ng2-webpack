@@ -12,7 +12,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['', '.js', '.ts', '.less']
   },
 
   module: {
@@ -28,6 +28,10 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
         loader: 'file?name=assets/[name].[hash].[ext]'
+      },
+      {
+        test: /\.less$/,
+        loader: "style!css!less"
       },
       {
         test: /\.css$/,
