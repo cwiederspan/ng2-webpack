@@ -1,7 +1,7 @@
 # ng2-webpack
 About the simplest file and project structure imaginable for an 
 [Angular2](https://angular.io) project that uses [Webpack](https://webpack.github.io/) 
-instead of SystemJs.
+instead of [SystemJS](https://github.com/systemjs/systemjs).
 
 Up to this point, the only *improvement* that has been made is to include the 
 [less-loader](https://github.com/webpack/less-loader) for Webpack and updated 
